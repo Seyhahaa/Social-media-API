@@ -4,7 +4,7 @@ const path = require('path')
 const dotenv = require('dotenv')
 const app = express()
 const authRoute = require('./routes/authRoute');
-const FriendRoute = require('./routes/friendRoute');
+const FriendRoute = require('./routes/FriendRoute');
 const postRoute = require('./routes/postRoute');
 
 
